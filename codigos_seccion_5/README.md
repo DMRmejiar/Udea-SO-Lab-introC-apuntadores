@@ -99,7 +99,7 @@ Responda las siguientes preguntas:
 1. ¿Que hace el programa anterior?
 2. Describa las funciones ```getchar``` y ```putchar```
 3. ¿Cuales son las condiciones necesarias para que el primer ciclo deje de ejecutarse?
-
+:::
 5. **Problema de programación**: Codifique un programa que permita convertir en mayuscula una cadena de caracteres ingresada por teclado y solo terminara su ejecución cuando el usuario emplee la combinación de teclas . Por ejemplo si la entrada del programa es:
 
 ```
