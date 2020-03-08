@@ -1,0 +1,14 @@
+Codigo analizado: punto1.c
+
+1. ¿Que hace el programa anterior?
+    El programa anterior se encarga de leer hasta un maximo de 1000 caracteres ingresados en consola (Esto quiere decir que, en tal caso
+    de escribir más de 1000 caracteres, el excedente no se tomara en cuenta) esperando el caracter de fin de secuencia para continuar con
+    la ejecuion del codigo, luego de leerlo imprime estos caracteres almacenados.
+2. Desciba las funciones getchar y putchar
+    getchar: Es una funcion encargada de leer caracteres en consola hasta que se ingrese EOF o que ocurra un error, luego pasa estos datos
+    al sistema (generalmente se almacena en una variable).
+    putchar: Es una funcion encargada de imprimir en consola un caracter, esta funcion recibe como unico parametro un caracter.
+3. ¿Cuales son las condiciones necesarias para que el primer ciclo deje de ejecutarse?
+    Para que el primer ciclo deje de ejecutarse se deben cumplir una de dos condiciones (o ambas), primero, que en la lectura de los
+    simbolos de entrada se encuentro con un EOF o que la cantidad de caracteres leidos sea equivalente a 1000(con esto me refiero a la
+    cantidad de veces que se ejecuta el ciclo, más no a la cantidad de caracteres que el usuario ingrese en la consola). 
