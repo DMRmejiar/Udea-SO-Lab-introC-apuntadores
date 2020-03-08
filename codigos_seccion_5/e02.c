@@ -15,10 +15,13 @@ int main() {
  *   @param  ch es el caracter a averiguar
  *   @return el numero de veces que aparece ch en array o -1 si no aparece.
  */
-int obtenerIndice(char *array, char ch) {
+int obtenerIndice(char *array, char ch)
+{
   int cnt = 0;
-  while (*array != '\0') {
-    if(ch == *array) {
+  while (*array != '\0')
+  {
+    if(ch == *array)
+    {
         return cnt;
     }
     cnt++;
@@ -27,7 +30,8 @@ int obtenerIndice(char *array, char ch) {
   return -1;
 }
 
-void test() {
+void test()
+{
   char cad[] = "cadena";
   int cnt = obtenerIndice(cad,'a');
   printf("Posicion de a en \"%s\" : %d\n", cad, cnt);

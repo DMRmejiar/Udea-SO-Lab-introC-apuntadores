@@ -3,7 +3,8 @@
 void test(void);
 int contarCaracter(char *, char);
 
-int main() {
+int main()
+{
   test();
   return 0;
 }
@@ -17,19 +18,23 @@ int main() {
  */
 int contarCaracter(char *array, char ch) {
   int cnt = 0;
-  while (*array != '\0') {
-    if(ch == *array) {
+  while (*array != '\0')
+  {
+    if(ch == *array)
+    {
       cnt++;
     }
     array++;
   }
-  if (cnt == 0) {
-      cnt = -1;
-    }
+  if (cnt == 0)
+  {
+    cnt = -1;
+  }
   return cnt;
 }
 
-void test() {
+void test()
+{
   char cad[] = "cadena";
   int cnt = contarCaracter(cad,'a');
   printf("Contar a en \"%s\" : %d\n", cad, cnt);
